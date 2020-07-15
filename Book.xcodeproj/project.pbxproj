@@ -13,10 +13,11 @@
 		E777D23424BDF7A5005019ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E777D23224BDF7A5005019ED /* Main.storyboard */; };
 		E777D23624BDF7A8005019ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E777D23524BDF7A8005019ED /* Assets.xcassets */; };
 		E777D23924BDF7A8005019ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E777D23724BDF7A8005019ED /* LaunchScreen.storyboard */; };
+		E788F4B724BF59530029B2B6 /* iPhoneSe.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E788F4B524BF59530029B2B6 /* iPhoneSe.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E777D22924BDF7A5005019ED /* Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Book.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E777D22924BDF7A5005019ED /* Wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E777D22C24BDF7A5005019ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E777D22E24BDF7A5005019ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E777D23024BDF7A5005019ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		E777D23524BDF7A8005019ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E777D23824BDF7A8005019ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E777D23A24BDF7A8005019ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E788F4B624BF59530029B2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Book/Base.lproj/iPhoneSe.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		E777D22024BDF7A5005019ED = {
 			isa = PBXGroup;
 			children = (
+				E788F4B524BF59530029B2B6 /* iPhoneSe.storyboard */,
 				E777D22B24BDF7A5005019ED /* Book */,
 				E777D22A24BDF7A5005019ED /* Products */,
 			);
@@ -48,7 +51,7 @@
 		E777D22A24BDF7A5005019ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E777D22924BDF7A5005019ED /* Book.app */,
+				E777D22924BDF7A5005019ED /* Wallpaper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +87,7 @@
 			);
 			name = Book;
 			productName = Book;
-			productReference = E777D22924BDF7A5005019ED /* Book.app */;
+			productReference = E777D22924BDF7A5005019ED /* Wallpaper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E777D23924BDF7A8005019ED /* LaunchScreen.storyboard in Resources */,
+				E788F4B724BF59530029B2B6 /* iPhoneSe.storyboard in Resources */,
 				E777D23624BDF7A8005019ED /* Assets.xcassets in Resources */,
 				E777D23424BDF7A5005019ED /* Main.storyboard in Resources */,
 			);
@@ -161,6 +165,14 @@
 				E777D23824BDF7A8005019ED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E788F4B524BF59530029B2B6 /* iPhoneSe.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E788F4B624BF59530029B2B6 /* Base */,
+			);
+			name = iPhoneSe.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -291,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lee.Book;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wallpaper;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lee.Book;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Wallpaper;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
