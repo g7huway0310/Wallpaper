@@ -513,7 +513,7 @@
         <scene sceneID="0VX-Wt-xKw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="x4d-3I-sT7" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Photowall" image="photo" catalog="system" selectedImage="photo" id="o0R-gx-T3j"/>
+                    <tabBarItem key="tabBarItem" title="Photowall" image="photo" catalog="system" landscapeImage="icons8-iphone-26" selectedImage="photo" id="o0R-gx-T3j"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ILv-c3-4fM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1208,7 +1208,6 @@ Powered by creators everywhere.</string>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="stu-Lw-ADf"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xEr-r3-NFg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -1276,7 +1275,7 @@ Powered by creators everywhere.</string>
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="273"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://medium.com/@g7huway0310" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CO7-vG-8kd">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://unsplash.com/wallpapers/iphone" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CO7-vG-8kd">
                                                     <rect key="frame" x="106" y="30" width="240" height="215"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -1294,9 +1293,11 @@ Powered by creators everywhere.</string>
                                                         </userDefinedRuntimeAttribute>
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="g7huway0310 Medium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eql-AX-p4b">
-                                                    <rect key="frame" x="163" y="229" width="89" height="10"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eql-AX-p4b">
+                                                    <rect key="frame" x="120" y="227" width="181" height="10"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <string key="text">The internet’s source of freely-usable images
+Powered by creators everywhere.</string>
                                                     <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                                     <color key="textColor" red="0.9441105769" green="0.9441105769" blue="0.9441105769" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
@@ -1316,7 +1317,7 @@ Powered by creators everywhere.</string>
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="273"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://medium.com/@apppeterpan" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TUz-nr-eLs">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="https://unsplash.com/wallpapers/iphone" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TUz-nr-eLs">
                                                     <rect key="frame" x="106" y="30" width="240" height="215"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
